@@ -1,0 +1,41 @@
+{
+  "name": "siena_llm",
+  "version": "1.0.0",
+  "description": "LLM Challenge",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ezekielriva/siena_llm.git"
+  },
+  "keywords": [
+    "llm"
+  ],
+  "author": "Ezequiel Lichardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezekielriva/siena_llm/issues"
+  },
+  "homepage": "https://github.com/ezekielriva/siena_llm#readme",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.2",
+    "@types/supertest": "^6.0.2",
+    "express": "^4.19.2",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/morgan": "^1.9.9",
+    "dotenv": "^16.4.5",
+    "morgan": "^1.10.0"
+  }
+}
