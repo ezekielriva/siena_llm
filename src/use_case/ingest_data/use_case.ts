@@ -25,12 +25,8 @@ export default class IngestDataUseCase {
     }
 
     public async execute():Promise<string> {
-        await this.validator.execute(this.stream)
-        
-        return this.uploader.upload(this.stream)
-            .then( (output:CompleteMultipartUploadCommandOutput) => { return output.Location! } )
+        return this.validator.execute(this.stream)
+            .then( () => this.uploader.upload(this.stream))
+            .then( (output:CompleteMultipartUploadCommandOutput) => output.Location! )
     }
-
-
-
 }

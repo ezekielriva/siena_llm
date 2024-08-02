@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, test } from "@jest/globals";
+import { beforeEach, describe, expect, it } from "@jest/globals";
 import request, { Response } from "supertest";
 import app from "../../app";
 import { mockClient } from "aws-sdk-client-mock";
@@ -11,7 +11,7 @@ describe("IngestDataController", () => {
         S3ClientMock.reset();
     });
     
-    test("File Upload", async () => {
+    it("Uploads a file to S3", async () => {
         S3ClientMock.on(CreateMultipartUploadCommand).resolves({});
         S3ClientMock.on(UploadPartCommand).resolves({});
         
@@ -32,7 +32,7 @@ describe("IngestDataController", () => {
     });
 
     describe("When csv is not provided", () => {
-        test("Return 422", () => {
+        it("Return 422 when there is no file", () => {
             return request(app)
             .post("/upload")
                 .set("Content-Type", "application/json")
@@ -42,6 +42,20 @@ describe("IngestDataController", () => {
                 .then((res:Response) => {
                     expect(res.body.status).toBe("error");
                     expect(res.body.error).toBe("missing file");
+                })
+        })
+
+        it("Return 422 when the file format is not correct", () => {
+            return request(app)
+            .post("/upload")
+                .set("Content-Type", "application/json")
+                .set("Accept", "application/json")
+                .attach("csv", `${__dirname}/../../../spec/files/sample_error.csv`)
+                .expect("Content-Type", "application/json; charset=utf-8")
+                .expect(422)
+                .then((res:Response) => {
+                    expect(res.body.status).toBe("error");
+                    expect(res.body.error).toBe("ValidationError: \"sender_username\" is not allowed to be empty. \"reciever_username\" is not allowed to be empty. \"message\" is not allowed to be empty. \"channel\" must be one of [instagram, facebook, whatsapp, email]");
                 })
         })
     })

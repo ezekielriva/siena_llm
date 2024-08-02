@@ -14,5 +14,5 @@ export default (req:Request, res:Response) => {
 
     useCase.execute()
         .then( (s3_file:string) => res.status(201).json({ status: "uploaded", file: s3_file }) )
-        .catch( (err) => res.status(422).json({ status: "error", error: err }) )
+        .catch( (err:Error) => res.status(422).json({ status: "error", error: err.message }) )
 }
