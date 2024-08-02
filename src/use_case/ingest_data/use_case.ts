@@ -8,9 +8,9 @@
 // 4. Remove local file
 // 5. Return S3 file location
 
-import CSVValidator from "./csv_validator"
+import CSVValidator from "../../validator/csv_validator"
 import { Readable } from "stream"
-import S3Uploader from "./s3_uploader"
+import S3Uploader from "../../uploader/s3_uploader"
 import { CompleteMultipartUploadCommandOutput } from "@aws-sdk/client-s3"
 
 export default class IngestDataUseCase {

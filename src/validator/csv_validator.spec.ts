@@ -5,7 +5,7 @@ import CSVValidator from "./csv_validator";
 
 describe("CsvValidator", () => {
     describe("When file is valid", () => {
-        const VALID_FILE_PATH:string = `${__dirname}/../../../spec/files/sample.csv`
+        const VALID_FILE_PATH:string = `${__dirname}/../../spec/files/sample.csv`
 
         it("validates the file successfully", () => {
             var stream:ReadStream = fs.createReadStream(VALID_FILE_PATH);
@@ -17,7 +17,7 @@ describe("CsvValidator", () => {
     });
 
     describe("When file is invalid", () => {
-        const VALID_FILE_PATH:string = `${__dirname}/../../../spec/files/sample_error.csv`
+        const VALID_FILE_PATH:string = `${__dirname}/../../spec/files/sample_error.csv`
 
         it("throw an error", () => {
             var stream:ReadStream = fs.createReadStream(VALID_FILE_PATH);
