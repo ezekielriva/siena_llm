@@ -109,6 +109,6 @@
     "src/**/*.ts"
   ],
   "exclude": [
-    "**/*_spec.ts", "*.config.ts"
+    "**/*.spec.ts", "*.config.ts"
   ]
 }

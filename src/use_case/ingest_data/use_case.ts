@@ -8,20 +8,21 @@
 // 4. Remove local file
 // 5. Return S3 file location
 
-import { ReadStream } from "fs"
 import CSVValidator from "./csv_validator"
+import { Readable } from "stream"
 
 export default class IngestDataUseCase {
-    private stream:ReadStream
+    private stream:Readable
     private validator:CSVValidator
     
-    constructor(stream:ReadStream) {
+    constructor(stream:Readable) {
         this.stream = stream
         this.validator = new CSVValidator();
     }
 
-    public async execute() {
-        await this.validator.execute(this.stream);
+    public async execute():Promise<string> {
+        await this.validator.execute(this.stream)
+
         return `https://${process.env.S3_BUCKET_NAME!}.s3.amazonaws.com/sample.csv`
     }
 
