@@ -24,12 +24,12 @@ describe("CsvValidator", () => {
 
             var validator:CSVValidator = new CSVValidator();
 
-            return validator.execute(stream).catch( (err:any) => {
-                console.log(err);
-                //expect(message).toContain("sender_username");
-                //expect(message).toContain("reciever_username");
-                //expect(message).toContain("message");
-                //expect(message).toContain("channel");
+            return validator.execute(stream).catch( ({message}) => {
+                expect(message).toContain("sender_username");
+                expect(message).toContain("reciever_username");
+                expect(message).toContain("message");
+                expect(message).toContain("channel");
+                expect(message).toContain("instagram");
             } );
         });
     });
