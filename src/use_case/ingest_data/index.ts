@@ -9,7 +9,7 @@ export default (req:Request, res:Response) => {
         return res.status(422).json({ status: "error", error: "missing file" });
     }
 
-    const stream = Readable.from(file.buffer);
+    const stream:Readable = Readable.from(file.buffer);
     var useCase:IngestDataUseCase = new IngestDataUseCase(stream);
 
     useCase.execute()

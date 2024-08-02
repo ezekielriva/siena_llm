@@ -1,15 +1,27 @@
-import { describe, expect, it, test } from "@jest/globals";
+import { beforeEach, describe, expect, it, test } from "@jest/globals";
 import IngestDataUseCase from "./use_case";
 import fs from "fs"
 import { Readable } from "stream";
+import { mockClient } from "aws-sdk-client-mock";
+import { CreateMultipartUploadCommand, S3Client, UploadPartCommand } from "@aws-sdk/client-s3";
 
 describe("IngestDataUseCase", () => {
+    const S3ClientMock = mockClient(S3Client);
+
+    beforeEach( () => {
+        S3ClientMock.reset();
+    });
+
     test("returns s3 file location", () => {
         var stream:Readable = fs.createReadStream(`${__dirname}/../../../spec/files/sample.csv`)
         var useCase:IngestDataUseCase = new IngestDataUseCase(stream);
 
+        S3ClientMock.on(CreateMultipartUploadCommand).resolves({});
+        S3ClientMock.on(UploadPartCommand).resolves({});
+
         return useCase.execute().then( (result:string) => {
-            expect(result).toBe(`https://${process.env.S3_BUCKET_NAME!}.s3.amazonaws.com/sample.csv`)
+            const r:RegExp = new RegExp(`https:\/\/${process.env.S3_BUCKET_NAME}.s3.${process.env.AWS_REGION}.amazonaws.com\/(.+).csv`);
+            expect(result).toMatch(r)
         });
     });
 

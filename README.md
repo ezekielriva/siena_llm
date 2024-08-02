@@ -24,9 +24,10 @@ High level requirement:
 
 ## Execution
 
-1. Create your `.env` file using `.env.sample` as reference
+1. Create your `.env` file using `.env.sample` as reference.
 1. Run `npm start`
 
 ## Testing
 
+1. Creaet your `.env.test.local` file using `.env.sample` as reference.
 1. Run `npm test` or `npm run test:watch` to enable the watcher.

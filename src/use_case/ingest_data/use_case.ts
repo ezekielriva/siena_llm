@@ -10,20 +10,25 @@
 
 import CSVValidator from "./csv_validator"
 import { Readable } from "stream"
+import S3Uploader from "./s3_uploader"
+import { CompleteMultipartUploadCommandOutput } from "@aws-sdk/client-s3"
 
 export default class IngestDataUseCase {
     private stream:Readable
     private validator:CSVValidator
+    private uploader:S3Uploader
     
     constructor(stream:Readable) {
         this.stream = stream
         this.validator = new CSVValidator();
+        this.uploader = new S3Uploader();
     }
 
     public async execute():Promise<string> {
         await this.validator.execute(this.stream)
-
-        return `https://${process.env.S3_BUCKET_NAME!}.s3.amazonaws.com/sample.csv`
+        
+        return this.uploader.upload(this.stream)
+            .then( (output:CompleteMultipartUploadCommandOutput) => { return output.Location! } )
     }
 
 
