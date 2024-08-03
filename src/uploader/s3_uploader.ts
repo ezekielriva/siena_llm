@@ -1,5 +1,5 @@
 import { CompleteMultipartUploadCommandOutput, S3Client } from "@aws-sdk/client-s3";
-import { Readable } from "stream";
+import { Readable, Stream } from "stream";
 import { fromEnv } from "@aws-sdk/credential-providers";
 import { Upload } from "@aws-sdk/lib-storage";
 

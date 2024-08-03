@@ -1,6 +1,6 @@
 import Joi from "joi";
 import csvtojson from "csvtojson";
-import { Readable } from "stream";
+import { Readable, Stream } from "stream";
 
 const VALID_CHANNELS:string[] = ["instagram", "facebook", "whatsapp", "email"];
 
@@ -13,7 +13,8 @@ const CSV_SCHEMA:Joi.ObjectSchema = Joi.object({
 
 export default class CSVValidator {
 
-    public async execute(stream: Readable):Promise<void> {
+    public async execute(stream: Readable):Promise<Readable> {
+        const streamCopy = stream.pipe( new Stream.PassThrough() );
         const rows = await csvtojson().fromStream(stream);
         const errors: Joi.ValidationError[] = [];
 
@@ -27,5 +28,7 @@ export default class CSVValidator {
         if (errors.length > 0) {
             throw new Error(errors.join("; "));
         }
+
+        return streamCopy;
     }
 }

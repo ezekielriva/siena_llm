@@ -5,8 +5,7 @@
 // - There should be 1000 records in the csv
 // - Channels can be: instagram, facebook, whatsapp, email.
 // 3. Upload file to S3 Bucket
-// 4. Remove local file
-// 5. Return S3 file location
+// 4. Return S3 file location
 
 import CSVValidator from "../../validator/csv_validator"
 import { Readable } from "stream"
@@ -26,7 +25,7 @@ export default class IngestDataUseCase {
 
     public async execute():Promise<string> {
         return this.validator.execute(this.stream)
-            .then( () => this.uploader.upload(this.stream))
+            .then( (stream:Readable) => this.uploader.upload(stream))
             .then( (output:CompleteMultipartUploadCommandOutput) => output.Location! )
     }
 }

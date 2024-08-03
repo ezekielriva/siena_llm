@@ -4,9 +4,9 @@ import dotenv from "dotenv"
 import morgan from "morgan";
 import multer from "multer"
 
-import IngestDataController from "./use_case/ingest_data"
-
 dotenv.config()
+
+import IngestDataController from "./use_case/ingest_data"
 
 var app:Application = express();
 

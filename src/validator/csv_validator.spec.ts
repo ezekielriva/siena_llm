@@ -12,7 +12,7 @@ describe("CsvValidator", () => {
 
             var validator:CSVValidator = new CSVValidator();
 
-            return expect(validator.execute(stream)).resolves.toBeUndefined();
+            return expect(validator.execute(stream)).resolves.toBeDefined();
         });
     });
 
