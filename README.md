@@ -31,4 +31,5 @@ High level requirement:
 ## Testing
 
 1. Creaet your `.env.test.local` file using `.env.sample` as reference.
+1. Setup the database by running `npm run db:init`
 1. Run `npm test` or `npm run test:watch` to enable the watcher.
