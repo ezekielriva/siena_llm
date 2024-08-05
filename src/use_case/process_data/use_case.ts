@@ -34,44 +34,46 @@ export default class ProcessDataUseCase {
     readonly intentRepository:IntentRepository;
     readonly messageRepository:MessageRepository;
     readonly conversationRepository:ConversationRepository;
+    
+    private intents:Intent[];
 
     constructor(props:ProcessDataUseCaseProps) {
         this.intentRepository = props.intentRepository;
         this.messageRepository = props.messageRepository;
         this.conversationRepository = props.conversationRepository;
+        this.intents = [];
     }
-
+    
     public async execute(stream:Readable):Promise<void> {
         const messages:Message[] = await csvtojson().fromStream(stream);
+        this.intents = await this.fetchIntents();
 
         var classifications:TClassification[] = await this.classifyIntents(messages);
 
         for ( var i:number = 0; i < classifications.length; i++ ) {
             let classification:TClassification = classifications[i];
             let message:Message = messages[i];
-            let conversation:Conversation = await this.findByMessage(message);
-
+            let conversation:Conversation = await this.findByMessage(message);            
+            
             message.conversationId = conversation.id!;
             message.intent = classification.label;
-
+            
             if (classification.confidence < 0.80) {
                 this.createClarification(message);
                 continue
             }
-    
             this.createResponse(message)
         }
     }
 
     private async classifyIntents(m:Message[]) {
         const EDEN_API_URL = "https://api.edenai.run/v2/text/custom_classification";
-        const intents:Intent[] = await this.fetchIntents();
         
-        return await axios.post(EDEN_API_URL, {
+        return axios.post(EDEN_API_URL, {
                 providers: "cohere",
                 examples: INTENT_EXAMPLES,
                 texts: m.map( (v:Message) => v.message ),
-                labels: intents
+                labels: this.intents
             }, {
                 headers: {
                     authorization: `Bearer ${process.env.EDENAI_API_KEY}`
@@ -81,10 +83,8 @@ export default class ProcessDataUseCase {
                     throw res.data.cohere?.error
                 }
 
-            return res.data.cohere.classifications as TClassification[]
-        } ).catch( (err) => {
-            throw err
-        })
+                return res.data.cohere.classifications as TClassification[]
+        }).catch( (err) => { throw err });
     }
 
     private async findByMessage(m:Message):Promise<Conversation> {
@@ -102,7 +102,8 @@ export default class ProcessDataUseCase {
             reciever_username: m.reciever_username,
             conversationId: m.conversationId,
             channel: m.channel,
-            intent: m.intent
+            intent: m.intent,
+            intentId: this.findIntentId(m.intent)
         } as Message
 
         if (m.intent == "Request for international shipping information") {
@@ -114,6 +115,11 @@ export default class ProcessDataUseCase {
 
     private fetchIntents():Promise<Intent[]> {
         return this.intentRepository.findAll()
+    }
+
+    private findIntentId(name:string):number {
+        const index = this.intents.findIndex( (v:Intent) => v.name === name )
+        return this.intents[index].id!
     }
     
 }

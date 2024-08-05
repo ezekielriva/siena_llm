@@ -31,15 +31,9 @@ describe("ProcessData Use Case", () => {
         const messageRepository:MessageRepository = new MessageRepository(db);
         const conversationRepository:ConversationRepository = new ConversationRepository(db);
 
-        jest.mocked(messageRepository.create).mockReturnValue({ sender_username: "", reciever_username: "", message: "", channel: "instagram", conversationId: 0, intentID: 0, intent: "" });
-        jest.mocked(conversationRepository.findByParticipants).mockResolvedValue({
-            id: 1,
-            sender_username: "",
-            receiver_username: ""
-        })
-        jest.mocked(intentRepository.findAll).mockResolvedValue([{
-            name: "Inquiry about account details"
-        }])
+        jest.mocked(messageRepository.create).mockReturnValue({ sender_username: "", reciever_username: "", message: "", channel: "instagram", conversationId: 0, intentId: 1, intent: "" });
+        jest.mocked(conversationRepository.findByParticipants).mockResolvedValue({ id: 1, sender_username: "", receiver_username: "" })
+        jest.mocked(intentRepository.findAll).mockResolvedValue([{ name: "Request for international shipping information", id: 1 }]);
         
         var stream:Readable = createReadStream(`${__dirname}/../../../spec/files/sample.csv`);
         var useCase:ProcessDataUseCase = new ProcessDataUseCase({
@@ -73,13 +67,14 @@ describe("ProcessData Use Case", () => {
                     })
                 })
             )
+            
             expect(messageRepository.create).toHaveBeenCalledWith({
                 "channel": "instagram", 
                 "intent": "Request for veteran discount", 
                 "message": "I don't understand. Could you please clarify?", 
                 "reciever_username": "@helloworld", 
                 "sender_username": "@bogoman",
-                "conversationId": 1
+                "conversationId": 1,
             });
 
             expect( messageRepository.create ).toHaveBeenCalledWith({
@@ -88,7 +83,8 @@ describe("ProcessData Use Case", () => {
                 "message": "Hey @ashdev, we do ship internationally. Could you provide you full address?", 
                 "reciever_username": "@meowcat", 
                 "sender_username": "@ashdev",
-                "conversationId": 1
+                "conversationId": 1,
+                "intentId": 1
             });
 
             expect( intentRepository.findAll ).toHaveBeenCalled();

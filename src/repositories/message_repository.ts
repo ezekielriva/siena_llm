@@ -17,7 +17,7 @@ export class MessageRepository {
 
         this.db.run(
             sql, 
-            [m.conversationId, m.intentID, m.message, m.channel],
+            [m.conversationId, m.intentId, m.message, m.channel],
             function(err:Error|null) {
                 if (err != null ) { throw (err); }
                 m.id = this.lastID

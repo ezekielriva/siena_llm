@@ -12,7 +12,7 @@ export type Message = {
     message:string
     channel:Channel
     conversationId:ConversationID,
-    intentID:IntentID
+    intentId:IntentID
     intent:string
 };
 
