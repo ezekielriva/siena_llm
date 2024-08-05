@@ -8,6 +8,7 @@ dotenv.config()
 
 import IngestDataController from "./use_case/ingest_data"
 import ListConversationsController from "./use_case/list_conversations"
+import ShowMessagesController from "./use_case/show_messages"
 
 var app:Application = express();
 
@@ -23,6 +24,7 @@ app.get("/", (req:Request, res:Response) => {
 });
 
 app.get("/conversations", ListConversationsController);
+app.get("/conversations/:id/messages", ShowMessagesController)
 
 app.post("/upload", 
     upload.single("csv"), 

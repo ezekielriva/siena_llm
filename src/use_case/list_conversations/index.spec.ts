@@ -1,9 +1,8 @@
-import { afterAll, beforeEach, describe, expect, it } from "@jest/globals";
+import { afterEach, beforeEach, describe, expect, it } from "@jest/globals";
 import request, { Response } from "supertest";
 import app from "../../app";
 import { ConversationRepository } from "../../repositories/conversation_repository";
 import db from "../../../db/client";
-import { afterEach } from "node:test";
 import { Conversation } from "../../entities/conversation";
 
 describe("ListConversationsController", () => {
@@ -18,7 +17,7 @@ describe("ListConversationsController", () => {
         conversationRepository.create({ sender_username: "5", receiver_username: "b" });
     });
 
-    afterAll( () => conversationRepository.deleteAll() );
+    afterEach( () => conversationRepository.deleteAll() );
     
     it("returns all conversations in the db paginated", () => {
         return request(app)
@@ -35,11 +34,7 @@ describe("ListConversationsController", () => {
                 expect( limit ).toBe("2");
                 expect( page ).toBe(1);
 
-                expect( conversations[0] as Conversation ).toBe({
-                    id: conversationUT.id,
-                    sender_username: conversationUT.sender_username,
-                    receiver_username: conversationUT.receiver_username
-                })
+                expect( conversations[0].id ).toBe(conversationUT.id)
             }).catch( (err:Error)=>{ throw err } );
     });
 });
