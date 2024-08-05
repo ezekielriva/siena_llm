@@ -6,6 +6,7 @@ import { IntentRepository } from "../../repositories/intent_repository";
 import { MessageRepository } from "../../repositories/message_repository";
 import { Conversation } from "../../entities/conversation";
 import { ConversationRepository } from "../../repositories/conversation_repository";
+import { Intent } from "../../entities/intent";
 
 type TClassification = {
     input:string, // message
@@ -77,12 +78,13 @@ export default class ProcessDataUseCase {
 
     private async classifyIntents(m:Message[]) {
         const EDEN_API_URL = "https://api.edenai.run/v2/text/custom_classification";
+        const intents:Intent[] = await this.fetchIntents();
         
         return await axios.post(EDEN_API_URL, {
                 providers: "cohere",
                 examples: INTENT_EXAMPLES,
                 texts: m.map( (v:Message) => v.message ),
-                labels: INTENTS
+                labels: intents
             }, {
                 headers: {
                     authorization: `Bearer ${process.env.EDENAI_API_KEY}`
@@ -123,5 +125,8 @@ export default class ProcessDataUseCase {
         this.messageRepository.create(response);
     }
 
+    private fetchIntents():Promise<Intent[]> {
+        return this.intentRepository.findAll()
+    }
     
 }

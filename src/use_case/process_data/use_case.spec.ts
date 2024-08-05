@@ -8,6 +8,7 @@ import { Readable } from "stream";
 import db from "../../../db/client";
 import ProcessDataUseCase from "./use_case";
 import { IntentRepository } from "../../repositories/intent_repository";
+jest.mock("../../repositories/intent_repository")
 import { MessageRepository } from "../../repositories/message_repository";
 jest.mock("../../repositories/message_repository")
 import { ConversationRepository } from "../../repositories/conversation_repository";
@@ -26,9 +27,9 @@ describe("ProcessData Use Case", () => {
     
 
     it("creates responses from intents", async () => {
-        var intentRepository:IntentRepository = new IntentRepository(db);
-        var messageRepository:MessageRepository = new MessageRepository(db);
-        var conversationRepository:ConversationRepository = new ConversationRepository(db);
+        const intentRepository:IntentRepository = new IntentRepository(db);
+        const messageRepository:MessageRepository = new MessageRepository(db);
+        const conversationRepository:ConversationRepository = new ConversationRepository(db);
 
         jest.mocked(messageRepository.create).mockReturnValue({ sender_username: "", reciever_username: "", message: "", channel: "instagram", conversationId: 0, intentID: 0, intent: "" });
         jest.mocked(conversationRepository.findByParticipants).mockResolvedValue({
@@ -36,6 +37,9 @@ describe("ProcessData Use Case", () => {
             sender_username: "",
             receiver_username: ""
         })
+        jest.mocked(intentRepository.findAll).mockResolvedValue([{
+            name: "Inquiry about account details"
+        }])
         
         var stream:Readable = createReadStream(`${__dirname}/../../../spec/files/sample.csv`);
         var useCase:ProcessDataUseCase = new ProcessDataUseCase({
@@ -57,9 +61,19 @@ describe("ProcessData Use Case", () => {
             })
         } ))
 
-        return useCase.execute(stream).then( () => {
-            expect(mockedAxios.post).toHaveBeenCalled()
-            expect( messageRepository.create ).toHaveBeenCalledWith({
+        return useCase.execute(stream).then( async () => {
+            expect(mockedAxios.post).toHaveBeenCalledWith(
+                "https://api.edenai.run/v2/text/custom_classification",
+                expect.objectContaining({
+                    labels: await intentRepository.findAll()
+                }),
+                expect.objectContaining({
+                    headers: expect.objectContaining({
+                        authorization: expect.stringContaining("Bearer")
+                    })
+                })
+            )
+            expect(messageRepository.create).toHaveBeenCalledWith({
                 "channel": "instagram", 
                 "intent": "Request for veteran discount", 
                 "message": "I don't understand. Could you please clarify?", 
@@ -76,6 +90,8 @@ describe("ProcessData Use Case", () => {
                 "sender_username": "@ashdev",
                 "conversationId": 1
             });
+
+            expect( intentRepository.findAll ).toHaveBeenCalled();
         })
     }) 
 });

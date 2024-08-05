@@ -42,4 +42,17 @@ export class IntentRepository {
             });
         });
     }
+
+    public async findAll():Promise<Intent[]> {
+        const sql = `
+            SELECT * FROM ${this.TABLE_NAME}
+        `
+
+        return new Promise<Intent[]>( (resolve, reject) => {
+            this.db.all(sql, (err:Error | null, rows:Intent[]) => {
+                if (err) { reject(err); }
+                else { resolve(rows) }
+            });
+        } )
+    }
 }
