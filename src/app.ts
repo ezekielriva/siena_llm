@@ -7,6 +7,7 @@ import multer from "multer"
 dotenv.config()
 
 import IngestDataController from "./use_case/ingest_data"
+import ListConversationsController from "./use_case/list_conversations"
 
 var app:Application = express();
 
@@ -21,9 +22,11 @@ app.get("/", (req:Request, res:Response) => {
     res.send({ "status": "ok" })
 });
 
+app.get("/conversations", ListConversationsController);
+
 app.post("/upload", 
     upload.single("csv"), 
     IngestDataController
-)
+);
 
 export default app;
