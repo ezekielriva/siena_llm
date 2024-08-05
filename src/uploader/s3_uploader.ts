@@ -24,6 +24,6 @@ export default class S3Uploader {
             },
         });
 
-        return await upload.done();
+        return upload.done();
     }
 }

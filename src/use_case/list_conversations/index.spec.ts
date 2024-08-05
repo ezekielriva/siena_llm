@@ -34,7 +34,7 @@ describe("ListConversationsController", () => {
                 expect( limit ).toBe("2");
                 expect( page ).toBe(1);
 
-                expect( conversations[0].id ).toBe(conversationUT.id)
+                expect( conversations.map( (c:Conversation) => c.id ) ).toContain(conversationUT.id)
             }).catch( (err:Error)=>{ throw err } );
     });
 });

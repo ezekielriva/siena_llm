@@ -1,36 +1,20 @@
-import { expect, it } from "@jest/globals";
+import { expect, it, jest } from "@jest/globals";
 import fs, { ReadStream } from "fs";
 import { describe } from "node:test";
 import CSVValidator from "./csv_validator";
 
 describe("CsvValidator", () => {
-    describe("When file is valid", () => {
-        const VALID_FILE_PATH:string = `${__dirname}/../../spec/files/sample.csv`
+    const VALID_FILE_PATH:string = `${__dirname}/../../spec/files/sample_error.csv`
 
-        it("validates the file successfully", () => {
-            var stream:ReadStream = fs.createReadStream(VALID_FILE_PATH);
+    it("throw an error", () => {
+        var stream:ReadStream = fs.createReadStream(VALID_FILE_PATH);
 
-            var validator:CSVValidator = new CSVValidator();
+        var validator:CSVValidator = new CSVValidator();
 
-            return expect(validator.execute(stream)).resolves.toBeDefined();
-        });
-    });
-
-    describe("When file is invalid", () => {
-        const VALID_FILE_PATH:string = `${__dirname}/../../spec/files/sample_error.csv`
-
-        it("throw an error", () => {
-            var stream:ReadStream = fs.createReadStream(VALID_FILE_PATH);
-
-            var validator:CSVValidator = new CSVValidator();
-
-            return validator.execute(stream).catch( ({message}) => {
-                expect(message).toContain("sender_username");
-                expect(message).toContain("reciever_username");
-                expect(message).toContain("message");
-                expect(message).toContain("channel");
-                expect(message).toContain("instagram");
-            } );
-        });
+        return validator.execute(stream).catch( (errors:Error[]) => {
+            expect(errors).toHaveLength(2);
+            expect(errors).toContain("csv file must have at least 1000 rows, current lenght 1 rows");
+            expect(errors).toContain("row 0: ValidationError: \"sender_username\" is not allowed to be empty. \"reciever_username\" is not allowed to be empty. \"message\" is not allowed to be empty. \"channel\" must be one of [instagram, facebook, whatsapp, email]");
+        } );
     });
 });

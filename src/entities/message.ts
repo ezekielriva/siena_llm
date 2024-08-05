@@ -1,9 +1,9 @@
 import { ConversationID } from "./conversation"
 import { IntentID } from "./intent"
 
-export type MessageID = number
+export type MessageID = number;
 
-export type Channel = 'instagram' | 'facebook' | 'whatsapp' | 'email'
+export type Channel = 'instagram' | 'facebook' | 'whatsapp' | 'email';
 
 export type Message = {
     id?:MessageID,
@@ -14,5 +14,5 @@ export type Message = {
     conversationId:ConversationID,
     intentID:IntentID
     intent:string
-}
+};
 

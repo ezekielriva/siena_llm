@@ -1,0 +1,1001 @@
+sender_username,reciever_username,message,channel
+@merchant,@seller,How can I contact customer support?,instagram
+@helloworld,@ashdev,Can I track my order?,whatsapp
+@buyer,@customer,Do you have discounts available?,whatsapp
+@ashdev,@helloworld,Is there a warranty on this product?,whatsapp
+@helloworld,@seller,Do you have discounts available?,whatsapp
+@ashdev,@helloworld,Can I track my order?,whatsapp
+@seller,@shopper,What is the return policy?,instagram
+@customer,@seller,When will my order arrive?,whatsapp
+@vendor,@ashdev,Is there a warranty on this product?,whatsapp
+@customer,@seller,How are you doing?,instagram
+@seller,@vendor,Do you have discounts available?,email
+@ashdev,@ashdev,Do you have discounts available?,instagram
+@ashdev,@buyer,Do you have this item in stock?,facebook
+@ashdev,@helloworld,What payment methods do you accept?,email
+@helloworld,@ashdev,How can I contact customer support?,whatsapp
+@merchant,@helloworld,How can I contact customer support?,whatsapp
+@buyer,@buyer,When will my order arrive?,facebook
+@seller,@shopper,Do you have discounts available?,instagram
+@shopper,@merchant,Do you have this item in stock?,instagram
+@seller,@customer,Do you ship internationally?,whatsapp
+@meowcat,@helloworld,What is the return policy?,whatsapp
+@helloworld,@meowcat,What payment methods do you accept?,facebook
+@shopper,@meowcat,When will my order arrive?,instagram
+@meowcat,@merchant,Can I track my order?,instagram
+@customer,@ashdev,Do you ship internationally?,whatsapp
+@vendor,@seller,Do you ship internationally?,email
+@merchant,@customer,What payment methods do you accept?,whatsapp
+@merchant,@shopper,Do you have this item in stock?,email
+@customer,@shopper,What is the return policy?,whatsapp
+@customer,@meowcat,What payment methods do you accept?,whatsapp
+@merchant,@merchant,How are you doing?,email
+@meowcat,@vendor,What payment methods do you accept?,email
+@vendor,@customer,Do you have this item in stock?,email
+@buyer,@helloworld,What is the return policy?,email
+@helloworld,@helloworld,Do you ship internationally?,email
+@meowcat,@bogoman,Can I track my order?,facebook
+@shopper,@vendor,Do you have this item in stock?,instagram
+@shopper,@merchant,What payment methods do you accept?,facebook
+@ashdev,@bogoman,How can I contact customer support?,instagram
+@ashdev,@vendor,How are you doing?,email
+@seller,@ashdev,When will my order arrive?,email
+@buyer,@helloworld,Do you have discounts available?,whatsapp
+@customer,@buyer,What is the return policy?,whatsapp
+@shopper,@vendor,What payment methods do you accept?,facebook
+@customer,@merchant,What payment methods do you accept?,email
+@merchant,@buyer,Can I track my order?,instagram
+@merchant,@customer,When will my order arrive?,instagram
+@customer,@buyer,Can I track my order?,instagram
+@bogoman,@customer,Do you ship internationally?,whatsapp
+@customer,@seller,How are you doing?,facebook
+@meowcat,@vendor,Do you have discounts available?,email
+@buyer,@merchant,Do you have this item in stock?,instagram
+@buyer,@ashdev,What payment methods do you accept?,instagram
+@merchant,@bogoman,Is there a warranty on this product?,whatsapp
+@seller,@buyer,What is the return policy?,instagram
+@merchant,@customer,Can I track my order?,email
+@buyer,@meowcat,Do you ship internationally?,whatsapp
+@seller,@merchant,Do you have this item in stock?,instagram
+@ashdev,@buyer,Do you ship internationally?,email
+@vendor,@buyer,Is there a warranty on this product?,facebook
+@vendor,@meowcat,When will my order arrive?,instagram
+@buyer,@customer,Is there a warranty on this product?,instagram
+@merchant,@bogoman,Is there a warranty on this product?,whatsapp
+@seller,@customer,How are you doing?,whatsapp
+@ashdev,@customer,Can I track my order?,email
+@merchant,@shopper,When will my order arrive?,instagram
+@vendor,@customer,How are you doing?,instagram
+@customer,@ashdev,When will my order arrive?,whatsapp
+@helloworld,@seller,What payment methods do you accept?,email
+@customer,@ashdev,What payment methods do you accept?,facebook
+@ashdev,@customer,What payment methods do you accept?,facebook
+@meowcat,@shopper,How are you doing?,facebook
+@ashdev,@shopper,Is there a warranty on this product?,whatsapp
+@merchant,@bogoman,How are you doing?,instagram
+@customer,@buyer,Can I track my order?,email
+@seller,@customer,When will my order arrive?,whatsapp
+@shopper,@meowcat,How are you doing?,email
+@bogoman,@customer,What payment methods do you accept?,email
+@vendor,@meowcat,Do you ship internationally?,facebook
+@seller,@customer,Is there a warranty on this product?,email
+@buyer,@merchant,When will my order arrive?,facebook
+@vendor,@customer,What is the return policy?,facebook
+@seller,@meowcat,Is there a warranty on this product?,facebook
+@buyer,@seller,How are you doing?,email
+@meowcat,@helloworld,Can I track my order?,whatsapp
+@shopper,@merchant,Do you ship internationally?,facebook
+@vendor,@customer,How are you doing?,facebook
+@bogoman,@helloworld,What payment methods do you accept?,email
+@ashdev,@shopper,How are you doing?,email
+@ashdev,@meowcat,What is the return policy?,email
+@shopper,@merchant,When will my order arrive?,email
+@ashdev,@merchant,Is there a warranty on this product?,email
+@ashdev,@vendor,How are you doing?,facebook
+@ashdev,@helloworld,Is there a warranty on this product?,facebook
+@merchant,@seller,Do you have this item in stock?,facebook
+@helloworld,@ashdev,Do you have this item in stock?,whatsapp
+@customer,@vendor,How are you doing?,whatsapp
+@helloworld,@helloworld,Can I track my order?,whatsapp
+@meowcat,@ashdev,Can I track my order?,facebook
+@bogoman,@shopper,Can I track my order?,whatsapp
+@ashdev,@seller,What payment methods do you accept?,instagram
+@customer,@seller,Is there a warranty on this product?,instagram
+@vendor,@helloworld,Do you have discounts available?,whatsapp
+@ashdev,@ashdev,When will my order arrive?,whatsapp
+@vendor,@customer,Do you have this item in stock?,email
+@buyer,@customer,How are you doing?,facebook
+@shopper,@merchant,When will my order arrive?,facebook
+@vendor,@vendor,Do you have discounts available?,instagram
+@meowcat,@bogoman,Can I track my order?,whatsapp
+@helloworld,@meowcat,Is there a warranty on this product?,instagram
+@buyer,@buyer,What payment methods do you accept?,instagram
+@ashdev,@bogoman,When will my order arrive?,whatsapp
+@ashdev,@buyer,Can I track my order?,facebook
+@seller,@shopper,How are you doing?,instagram
+@customer,@merchant,Do you have this item in stock?,instagram
+@customer,@vendor,How are you doing?,facebook
+@ashdev,@helloworld,How are you doing?,facebook
+@meowcat,@customer,When will my order arrive?,whatsapp
+@meowcat,@helloworld,Do you have discounts available?,whatsapp
+@seller,@bogoman,What is the return policy?,email
+@buyer,@merchant,Do you ship internationally?,whatsapp
+@meowcat,@buyer,How are you doing?,whatsapp
+@buyer,@meowcat,Do you have discounts available?,email
+@customer,@buyer,What is the return policy?,instagram
+@shopper,@buyer,How are you doing?,instagram
+@helloworld,@seller,Do you ship internationally?,facebook
+@meowcat,@vendor,Can I track my order?,facebook
+@shopper,@seller,Do you have discounts available?,instagram
+@customer,@buyer,Do you have discounts available?,email
+@buyer,@meowcat,What payment methods do you accept?,whatsapp
+@merchant,@customer,How can I contact customer support?,whatsapp
+@vendor,@bogoman,Is there a warranty on this product?,instagram
+@helloworld,@vendor,Do you have this item in stock?,whatsapp
+@merchant,@merchant,When will my order arrive?,instagram
+@helloworld,@vendor,When will my order arrive?,facebook
+@meowcat,@seller,How can I contact customer support?,whatsapp
+@helloworld,@helloworld,How can I contact customer support?,facebook
+@buyer,@bogoman,Do you have this item in stock?,facebook
+@vendor,@merchant,What is the return policy?,email
+@seller,@seller,Do you ship internationally?,facebook
+@meowcat,@ashdev,Do you ship internationally?,whatsapp
+@ashdev,@vendor,Do you have discounts available?,email
+@buyer,@meowcat,How can I contact customer support?,email
+@shopper,@bogoman,What is the return policy?,whatsapp
+@merchant,@ashdev,Do you have discounts available?,whatsapp
+@bogoman,@ashdev,Is there a warranty on this product?,facebook
+@helloworld,@merchant,How are you doing?,email
+@meowcat,@merchant,Do you ship internationally?,instagram
+@bogoman,@merchant,Can I track my order?,whatsapp
+@buyer,@shopper,Do you ship internationally?,whatsapp
+@seller,@meowcat,Do you have discounts available?,email
+@seller,@bogoman,How can I contact customer support?,email
+@bogoman,@meowcat,How can I contact customer support?,email
+@seller,@vendor,Do you ship internationally?,email
+@helloworld,@bogoman,Is there a warranty on this product?,email
+@helloworld,@ashdev,What payment methods do you accept?,facebook
+@merchant,@seller,Do you have discounts available?,instagram
+@seller,@customer,When will my order arrive?,instagram
+@customer,@bogoman,Do you have discounts available?,facebook
+@buyer,@ashdev,Do you have this item in stock?,email
+@seller,@bogoman,What payment methods do you accept?,instagram
+@helloworld,@meowcat,How are you doing?,whatsapp
+@shopper,@buyer,Is there a warranty on this product?,facebook
+@shopper,@helloworld,Can I track my order?,instagram
+@meowcat,@customer,How can I contact customer support?,whatsapp
+@merchant,@seller,Do you have this item in stock?,email
+@bogoman,@helloworld,Do you ship internationally?,facebook
+@meowcat,@helloworld,Can I track my order?,email
+@bogoman,@meowcat,How can I contact customer support?,instagram
+@seller,@customer,How are you doing?,facebook
+@ashdev,@shopper,Do you ship internationally?,instagram
+@customer,@bogoman,How are you doing?,instagram
+@seller,@shopper,Can I track my order?,facebook
+@ashdev,@shopper,Do you have this item in stock?,whatsapp
+@meowcat,@seller,Do you have discounts available?,facebook
+@vendor,@bogoman,How are you doing?,email
+@meowcat,@buyer,How can I contact customer support?,instagram
+@bogoman,@buyer,Do you have discounts available?,whatsapp
+@helloworld,@ashdev,Do you ship internationally?,facebook
+@seller,@seller,Do you have this item in stock?,instagram
+@bogoman,@vendor,How can I contact customer support?,whatsapp
+@ashdev,@ashdev,Can I track my order?,instagram
+@buyer,@ashdev,Is there a warranty on this product?,instagram
+@shopper,@helloworld,Do you have discounts available?,instagram
+@vendor,@shopper,What payment methods do you accept?,whatsapp
+@buyer,@bogoman,What payment methods do you accept?,facebook
+@vendor,@seller,Is there a warranty on this product?,email
+@customer,@buyer,Do you ship internationally?,whatsapp
+@ashdev,@buyer,Is there a warranty on this product?,email
+@seller,@ashdev,When will my order arrive?,email
+@bogoman,@merchant,Is there a warranty on this product?,whatsapp
+@buyer,@bogoman,Can I track my order?,instagram
+@bogoman,@meowcat,When will my order arrive?,whatsapp
+@shopper,@customer,Can I track my order?,facebook
+@shopper,@seller,What is the return policy?,whatsapp
+@customer,@shopper,How can I contact customer support?,whatsapp
+@bogoman,@bogoman,Can I track my order?,email
+@helloworld,@ashdev,Do you have discounts available?,email
+@helloworld,@shopper,When will my order arrive?,facebook
+@ashdev,@meowcat,How can I contact customer support?,email
+@vendor,@vendor,What is the return policy?,whatsapp
+@vendor,@buyer,Do you have discounts available?,facebook
+@seller,@buyer,How are you doing?,email
+@shopper,@bogoman,Do you ship internationally?,email
+@meowcat,@merchant,Do you have this item in stock?,facebook
+@meowcat,@seller,What payment methods do you accept?,email
+@shopper,@seller,How are you doing?,whatsapp
+@bogoman,@buyer,Do you have this item in stock?,email
+@helloworld,@helloworld,How are you doing?,instagram
+@ashdev,@vendor,Do you have discounts available?,email
+@vendor,@buyer,Do you ship internationally?,facebook
+@ashdev,@ashdev,How are you doing?,facebook
+@merchant,@ashdev,How are you doing?,email
+@seller,@seller,Do you ship internationally?,facebook
+@bogoman,@buyer,How can I contact customer support?,whatsapp
+@customer,@buyer,What is the return policy?,email
+@bogoman,@vendor,What payment methods do you accept?,instagram
+@ashdev,@ashdev,Do you ship internationally?,facebook
+@ashdev,@customer,Do you have this item in stock?,instagram
+@seller,@meowcat,How are you doing?,instagram
+@helloworld,@merchant,How can I contact customer support?,whatsapp
+@buyer,@customer,Is there a warranty on this product?,whatsapp
+@ashdev,@customer,How are you doing?,email
+@meowcat,@meowcat,What payment methods do you accept?,whatsapp
+@seller,@merchant,Do you have discounts available?,instagram
+@shopper,@seller,How can I contact customer support?,email
+@meowcat,@ashdev,How are you doing?,instagram
+@ashdev,@buyer,How can I contact customer support?,facebook
+@merchant,@meowcat,What payment methods do you accept?,whatsapp
+@bogoman,@shopper,When will my order arrive?,instagram
+@helloworld,@helloworld,Is there a warranty on this product?,instagram
+@vendor,@shopper,Do you ship internationally?,facebook
+@seller,@buyer,How can I contact customer support?,whatsapp
+@helloworld,@helloworld,Do you have discounts available?,whatsapp
+@helloworld,@customer,Is there a warranty on this product?,facebook
+@ashdev,@vendor,What payment methods do you accept?,instagram
+@seller,@ashdev,Do you have this item in stock?,instagram
+@bogoman,@bogoman,Can I track my order?,email
+@merchant,@seller,Do you ship internationally?,facebook
+@buyer,@buyer,How can I contact customer support?,whatsapp
+@seller,@vendor,How are you doing?,whatsapp
+@merchant,@seller,How are you doing?,email
+@merchant,@helloworld,How can I contact customer support?,whatsapp
+@vendor,@bogoman,Do you have discounts available?,instagram
+@shopper,@helloworld,How can I contact customer support?,instagram
+@seller,@ashdev,What is the return policy?,whatsapp
+@bogoman,@buyer,What payment methods do you accept?,facebook
+@merchant,@ashdev,Can I track my order?,email
+@merchant,@shopper,Is there a warranty on this product?,whatsapp
+@merchant,@helloworld,Is there a warranty on this product?,email
+@vendor,@vendor,How can I contact customer support?,instagram
+@buyer,@bogoman,What is the return policy?,instagram
+@meowcat,@shopper,Do you have this item in stock?,email
+@vendor,@vendor,Is there a warranty on this product?,instagram
+@seller,@meowcat,How can I contact customer support?,instagram
+@shopper,@merchant,What payment methods do you accept?,instagram
+@vendor,@buyer,What payment methods do you accept?,instagram
+@customer,@seller,How can I contact customer support?,instagram
+@merchant,@meowcat,Can I track my order?,instagram
+@shopper,@meowcat,Is there a warranty on this product?,email
+@customer,@ashdev,Do you have this item in stock?,email
+@buyer,@vendor,Do you have this item in stock?,email
+@ashdev,@merchant,Do you have this item in stock?,facebook
+@customer,@vendor,When will my order arrive?,instagram
+@helloworld,@ashdev,How can I contact customer support?,whatsapp
+@helloworld,@customer,When will my order arrive?,whatsapp
+@buyer,@shopper,What payment methods do you accept?,facebook
+@helloworld,@shopper,Do you have discounts available?,instagram
+@seller,@seller,How are you doing?,instagram
+@helloworld,@buyer,What payment methods do you accept?,facebook
+@merchant,@seller,When will my order arrive?,whatsapp
+@buyer,@customer,Do you have this item in stock?,instagram
+@merchant,@customer,Can I track my order?,facebook
+@buyer,@bogoman,Can I track my order?,facebook
+@vendor,@merchant,Do you ship internationally?,whatsapp
+@vendor,@buyer,When will my order arrive?,facebook
+@buyer,@bogoman,How can I contact customer support?,whatsapp
+@customer,@customer,How can I contact customer support?,facebook
+@meowcat,@helloworld,What payment methods do you accept?,instagram
+@vendor,@seller,What is the return policy?,email
+@shopper,@merchant,Do you ship internationally?,instagram
+@bogoman,@ashdev,What is the return policy?,whatsapp
+@customer,@helloworld,Do you have discounts available?,instagram
+@seller,@seller,Do you have this item in stock?,facebook
+@ashdev,@ashdev,What payment methods do you accept?,email
+@bogoman,@shopper,When will my order arrive?,whatsapp
+@customer,@vendor,What is the return policy?,facebook
+@buyer,@merchant,When will my order arrive?,whatsapp
+@helloworld,@shopper,Can I track my order?,instagram
+@meowcat,@vendor,What is the return policy?,whatsapp
+@helloworld,@helloworld,Do you have discounts available?,email
+@customer,@helloworld,What is the return policy?,email
+@buyer,@meowcat,How can I contact customer support?,whatsapp
+@helloworld,@vendor,Do you have discounts available?,instagram
+@seller,@customer,Can I track my order?,facebook
+@shopper,@buyer,How can I contact customer support?,instagram
+@seller,@bogoman,Can I track my order?,instagram
+@helloworld,@customer,Do you have discounts available?,instagram
+@buyer,@vendor,Do you have this item in stock?,facebook
+@buyer,@customer,Do you have this item in stock?,instagram
+@seller,@seller,What is the return policy?,email
+@bogoman,@customer,Do you have this item in stock?,email
+@shopper,@helloworld,Do you ship internationally?,whatsapp
+@ashdev,@vendor,What is the return policy?,instagram
+@buyer,@merchant,What payment methods do you accept?,whatsapp
+@bogoman,@meowcat,Is there a warranty on this product?,instagram
+@merchant,@merchant,Do you have discounts available?,email
+@bogoman,@meowcat,When will my order arrive?,facebook
+@vendor,@buyer,How are you doing?,email
+@meowcat,@meowcat,What is the return policy?,whatsapp
+@merchant,@merchant,When will my order arrive?,instagram
+@customer,@shopper,Can I track my order?,whatsapp
+@buyer,@bogoman,How can I contact customer support?,whatsapp
+@buyer,@helloworld,How can I contact customer support?,email
+@helloworld,@bogoman,Is there a warranty on this product?,whatsapp
+@bogoman,@helloworld,Is there a warranty on this product?,email
+@ashdev,@meowcat,Is there a warranty on this product?,facebook
+@vendor,@merchant,What payment methods do you accept?,email
+@ashdev,@helloworld,Is there a warranty on this product?,facebook
+@bogoman,@vendor,How are you doing?,email
+@shopper,@bogoman,How are you doing?,facebook
+@ashdev,@shopper,What is the return policy?,facebook
+@bogoman,@customer,How are you doing?,facebook
+@shopper,@merchant,How are you doing?,instagram
+@shopper,@customer,How can I contact customer support?,facebook
+@helloworld,@vendor,What payment methods do you accept?,email
+@customer,@shopper,Can I track my order?,facebook
+@buyer,@meowcat,Do you ship internationally?,instagram
+@meowcat,@buyer,Can I track my order?,facebook
+@buyer,@meowcat,How can I contact customer support?,email
+@vendor,@shopper,Can I track my order?,email
+@ashdev,@bogoman,Can I track my order?,instagram
+@seller,@ashdev,How can I contact customer support?,instagram
+@seller,@meowcat,When will my order arrive?,email
+@ashdev,@seller,Do you have discounts available?,instagram
+@customer,@merchant,Do you have this item in stock?,instagram
+@bogoman,@seller,Do you have discounts available?,instagram
+@helloworld,@customer,Do you ship internationally?,email
+@ashdev,@merchant,How are you doing?,facebook
+@merchant,@helloworld,Can I track my order?,whatsapp
+@ashdev,@helloworld,Do you have this item in stock?,facebook
+@helloworld,@shopper,Do you have discounts available?,email
+@meowcat,@customer,What payment methods do you accept?,whatsapp
+@buyer,@customer,Can I track my order?,facebook
+@merchant,@buyer,What payment methods do you accept?,facebook
+@customer,@helloworld,Is there a warranty on this product?,whatsapp
+@customer,@meowcat,How can I contact customer support?,facebook
+@seller,@helloworld,Do you have discounts available?,email
+@ashdev,@seller,Is there a warranty on this product?,email
+@vendor,@helloworld,Can I track my order?,whatsapp
+@helloworld,@buyer,When will my order arrive?,whatsapp
+@vendor,@bogoman,What is the return policy?,facebook
+@seller,@customer,When will my order arrive?,whatsapp
+@seller,@customer,Do you ship internationally?,facebook
+@meowcat,@seller,Can I track my order?,email
+@vendor,@bogoman,What is the return policy?,email
+@merchant,@seller,Can I track my order?,instagram
+@shopper,@merchant,What is the return policy?,email
+@seller,@bogoman,Do you have this item in stock?,instagram
+@meowcat,@ashdev,Do you have this item in stock?,email
+@customer,@vendor,Do you ship internationally?,whatsapp
+@bogoman,@customer,What payment methods do you accept?,facebook
+@ashdev,@bogoman,Is there a warranty on this product?,email
+@meowcat,@vendor,When will my order arrive?,email
+@ashdev,@helloworld,Is there a warranty on this product?,whatsapp
+@helloworld,@bogoman,Do you ship internationally?,instagram
+@shopper,@helloworld,How can I contact customer support?,email
+@ashdev,@buyer,What payment methods do you accept?,facebook
+@bogoman,@bogoman,Can I track my order?,facebook
+@helloworld,@meowcat,What payment methods do you accept?,facebook
+@shopper,@merchant,Do you have discounts available?,instagram
+@helloworld,@customer,What is the return policy?,whatsapp
+@helloworld,@customer,Do you have discounts available?,instagram
+@helloworld,@bogoman,What payment methods do you accept?,instagram
+@seller,@customer,Do you have discounts available?,facebook
+@ashdev,@vendor,Do you ship internationally?,email
+@buyer,@meowcat,How are you doing?,instagram
+@shopper,@buyer,Can I track my order?,facebook
+@merchant,@bogoman,What is the return policy?,facebook
+@bogoman,@helloworld,How can I contact customer support?,facebook
+@vendor,@ashdev,How are you doing?,whatsapp
+@customer,@vendor,When will my order arrive?,whatsapp
+@buyer,@seller,Do you have this item in stock?,email
+@buyer,@helloworld,Do you have this item in stock?,instagram
+@buyer,@buyer,When will my order arrive?,instagram
+@customer,@ashdev,How can I contact customer support?,facebook
+@meowcat,@ashdev,Is there a warranty on this product?,whatsapp
+@helloworld,@merchant,How can I contact customer support?,facebook
+@shopper,@merchant,Do you ship internationally?,email
+@seller,@helloworld,What payment methods do you accept?,email
+@seller,@customer,Can I track my order?,instagram
+@meowcat,@seller,Do you have discounts available?,whatsapp
+@customer,@bogoman,Do you have this item in stock?,email
+@seller,@merchant,How are you doing?,email
+@customer,@ashdev,What payment methods do you accept?,email
+@buyer,@buyer,Do you ship internationally?,facebook
+@vendor,@bogoman,Do you have this item in stock?,instagram
+@meowcat,@seller,Do you have this item in stock?,email
+@meowcat,@meowcat,Can I track my order?,whatsapp
+@customer,@buyer,Do you have discounts available?,email
+@bogoman,@helloworld,Can I track my order?,facebook
+@bogoman,@meowcat,Is there a warranty on this product?,facebook
+@buyer,@shopper,Do you ship internationally?,email
+@merchant,@bogoman,How can I contact customer support?,instagram
+@customer,@shopper,Is there a warranty on this product?,email
+@shopper,@customer,Do you have discounts available?,instagram
+@bogoman,@merchant,How can I contact customer support?,facebook
+@merchant,@shopper,Do you have this item in stock?,email
+@seller,@buyer,Can I track my order?,facebook
+@meowcat,@merchant,Do you ship internationally?,facebook
+@vendor,@ashdev,When will my order arrive?,email
+@customer,@vendor,Can I track my order?,whatsapp
+@meowcat,@buyer,Can I track my order?,email
+@vendor,@seller,Do you have this item in stock?,instagram
+@buyer,@seller,Do you ship internationally?,whatsapp
+@ashdev,@merchant,How are you doing?,whatsapp
+@helloworld,@vendor,Is there a warranty on this product?,email
+@ashdev,@vendor,How are you doing?,instagram
+@customer,@vendor,How are you doing?,whatsapp
+@ashdev,@vendor,Do you ship internationally?,instagram
+@bogoman,@ashdev,Is there a warranty on this product?,facebook
+@bogoman,@vendor,What payment methods do you accept?,facebook
+@meowcat,@shopper,What payment methods do you accept?,facebook
+@shopper,@customer,When will my order arrive?,instagram
+@seller,@helloworld,What is the return policy?,whatsapp
+@shopper,@bogoman,What payment methods do you accept?,whatsapp
+@customer,@vendor,How can I contact customer support?,facebook
+@customer,@helloworld,When will my order arrive?,whatsapp
+@bogoman,@helloworld,When will my order arrive?,instagram
+@merchant,@meowcat,Do you have discounts available?,instagram
+@seller,@meowcat,Do you ship internationally?,facebook
+@buyer,@meowcat,Do you have discounts available?,whatsapp
+@seller,@vendor,Is there a warranty on this product?,whatsapp
+@seller,@ashdev,How are you doing?,email
+@shopper,@ashdev,Can I track my order?,instagram
+@bogoman,@meowcat,What payment methods do you accept?,instagram
+@customer,@shopper,How can I contact customer support?,whatsapp
+@vendor,@helloworld,Do you ship internationally?,facebook
+@bogoman,@buyer,Do you have discounts available?,facebook
+@ashdev,@shopper,Do you have this item in stock?,instagram
+@vendor,@seller,How are you doing?,whatsapp
+@buyer,@helloworld,How can I contact customer support?,facebook
+@customer,@seller,How are you doing?,instagram
+@shopper,@bogoman,Is there a warranty on this product?,instagram
+@buyer,@merchant,Do you have discounts available?,facebook
+@bogoman,@shopper,Do you ship internationally?,email
+@meowcat,@vendor,Do you ship internationally?,instagram
+@vendor,@meowcat,Do you have this item in stock?,email
+@shopper,@merchant,What is the return policy?,instagram
+@ashdev,@bogoman,Is there a warranty on this product?,email
+@shopper,@shopper,What is the return policy?,whatsapp
+@vendor,@meowcat,How can I contact customer support?,email
+@bogoman,@seller,What payment methods do you accept?,instagram
+@ashdev,@shopper,Can I track my order?,whatsapp
+@merchant,@bogoman,What is the return policy?,email
+@meowcat,@customer,Do you have discounts available?,facebook
+@meowcat,@seller,How can I contact customer support?,facebook
+@seller,@customer,When will my order arrive?,instagram
+@bogoman,@vendor,Do you ship internationally?,whatsapp
+@ashdev,@buyer,What is the return policy?,email
+@seller,@vendor,How can I contact customer support?,facebook
+@ashdev,@bogoman,Can I track my order?,email
+@customer,@shopper,Do you ship internationally?,instagram
+@customer,@buyer,Can I track my order?,whatsapp
+@buyer,@ashdev,Can I track my order?,instagram
+@merchant,@ashdev,Can I track my order?,instagram
+@buyer,@bogoman,When will my order arrive?,whatsapp
+@ashdev,@merchant,How are you doing?,facebook
+@shopper,@bogoman,When will my order arrive?,whatsapp
+@meowcat,@shopper,Can I track my order?,email
+@ashdev,@meowcat,What is the return policy?,email
+@buyer,@buyer,How can I contact customer support?,email
+@ashdev,@shopper,When will my order arrive?,whatsapp
+@customer,@merchant,What payment methods do you accept?,facebook
+@meowcat,@vendor,Can I track my order?,facebook
+@shopper,@merchant,Do you ship internationally?,facebook
+@vendor,@shopper,When will my order arrive?,whatsapp
+@merchant,@merchant,When will my order arrive?,whatsapp
+@shopper,@merchant,When will my order arrive?,instagram
+@ashdev,@shopper,Is there a warranty on this product?,email
+@bogoman,@ashdev,How are you doing?,instagram
+@merchant,@customer,Do you ship internationally?,whatsapp
+@merchant,@vendor,Can I track my order?,facebook
+@merchant,@customer,How can I contact customer support?,instagram
+@seller,@shopper,When will my order arrive?,whatsapp
+@shopper,@ashdev,Do you have discounts available?,email
+@customer,@bogoman,Do you have this item in stock?,facebook
+@customer,@merchant,What is the return policy?,instagram
+@buyer,@seller,Do you ship internationally?,instagram
+@customer,@buyer,Can I track my order?,email
+@ashdev,@merchant,Can I track my order?,whatsapp
+@buyer,@bogoman,How are you doing?,instagram
+@helloworld,@customer,What is the return policy?,instagram
+@bogoman,@customer,Is there a warranty on this product?,email
+@helloworld,@merchant,What is the return policy?,whatsapp
+@shopper,@meowcat,Do you have this item in stock?,instagram
+@shopper,@helloworld,Do you have discounts available?,whatsapp
+@meowcat,@shopper,Do you have discounts available?,facebook
+@helloworld,@helloworld,How can I contact customer support?,whatsapp
+@shopper,@shopper,How are you doing?,instagram
+@helloworld,@helloworld,Do you have discounts available?,instagram
+@merchant,@bogoman,What is the return policy?,email
+@seller,@seller,What payment methods do you accept?,instagram
+@helloworld,@meowcat,When will my order arrive?,instagram
+@helloworld,@buyer,How are you doing?,whatsapp
+@ashdev,@vendor,What payment methods do you accept?,whatsapp
+@helloworld,@buyer,How are you doing?,facebook
+@helloworld,@meowcat,Do you have discounts available?,whatsapp
+@shopper,@ashdev,What is the return policy?,email
+@helloworld,@bogoman,Is there a warranty on this product?,email
+@buyer,@merchant,Do you ship internationally?,email
+@seller,@seller,Do you have discounts available?,whatsapp
+@buyer,@buyer,How are you doing?,email
+@buyer,@merchant,Do you ship internationally?,instagram
+@meowcat,@meowcat,What is the return policy?,whatsapp
+@meowcat,@ashdev,What payment methods do you accept?,instagram
+@vendor,@meowcat,How are you doing?,facebook
+@helloworld,@ashdev,How are you doing?,facebook
+@customer,@meowcat,Do you have this item in stock?,email
+@shopper,@shopper,How are you doing?,email
+@bogoman,@meowcat,Do you have this item in stock?,email
+@shopper,@ashdev,Do you have this item in stock?,facebook
+@helloworld,@ashdev,Do you ship internationally?,instagram
+@bogoman,@buyer,Can I track my order?,email
+@ashdev,@merchant,When will my order arrive?,email
+@shopper,@customer,Do you have discounts available?,email
+@buyer,@bogoman,Do you have discounts available?,whatsapp
+@buyer,@ashdev,When will my order arrive?,instagram
+@meowcat,@shopper,Is there a warranty on this product?,instagram
+@meowcat,@helloworld,When will my order arrive?,facebook
+@vendor,@seller,Do you ship internationally?,whatsapp
+@vendor,@buyer,Do you ship internationally?,instagram
+@customer,@customer,How can I contact customer support?,facebook
+@bogoman,@meowcat,Can I track my order?,facebook
+@shopper,@buyer,Can I track my order?,whatsapp
+@buyer,@ashdev,Do you have discounts available?,whatsapp
+@vendor,@vendor,How can I contact customer support?,facebook
+@customer,@bogoman,Do you ship internationally?,whatsapp
+@seller,@vendor,Do you ship internationally?,facebook
+@shopper,@ashdev,Is there a warranty on this product?,facebook
+@meowcat,@ashdev,Can I track my order?,facebook
+@customer,@customer,Do you have discounts available?,instagram
+@ashdev,@vendor,When will my order arrive?,facebook
+@seller,@seller,Is there a warranty on this product?,email
+@meowcat,@merchant,Is there a warranty on this product?,email
+@shopper,@customer,Do you ship internationally?,facebook
+@bogoman,@buyer,Do you have this item in stock?,whatsapp
+@bogoman,@ashdev,Do you ship internationally?,whatsapp
+@helloworld,@customer,What payment methods do you accept?,email
+@vendor,@bogoman,How are you doing?,whatsapp
+@vendor,@vendor,Do you ship internationally?,whatsapp
+@helloworld,@bogoman,How are you doing?,email
+@merchant,@ashdev,What is the return policy?,email
+@bogoman,@buyer,When will my order arrive?,whatsapp
+@shopper,@vendor,How can I contact customer support?,facebook
+@ashdev,@shopper,What is the return policy?,facebook
+@helloworld,@seller,Is there a warranty on this product?,instagram
+@shopper,@vendor,When will my order arrive?,email
+@buyer,@shopper,Do you ship internationally?,instagram
+@seller,@helloworld,When will my order arrive?,instagram
+@merchant,@buyer,Is there a warranty on this product?,facebook
+@buyer,@merchant,Do you ship internationally?,facebook
+@vendor,@seller,When will my order arrive?,instagram
+@merchant,@customer,Is there a warranty on this product?,email
+@meowcat,@bogoman,Do you ship internationally?,whatsapp
+@merchant,@helloworld,Do you have this item in stock?,email
+@customer,@buyer,How can I contact customer support?,instagram
+@bogoman,@meowcat,Do you have discounts available?,whatsapp
+@shopper,@vendor,Do you have discounts available?,instagram
+@customer,@seller,When will my order arrive?,whatsapp
+@merchant,@buyer,How are you doing?,instagram
+@vendor,@helloworld,How can I contact customer support?,facebook
+@meowcat,@shopper,Do you have this item in stock?,facebook
+@customer,@helloworld,Do you ship internationally?,email
+@seller,@vendor,What payment methods do you accept?,facebook
+@merchant,@merchant,What payment methods do you accept?,whatsapp
+@shopper,@buyer,Do you have discounts available?,whatsapp
+@seller,@shopper,How are you doing?,instagram
+@customer,@meowcat,When will my order arrive?,whatsapp
+@ashdev,@customer,Do you ship internationally?,facebook
+@merchant,@helloworld,How are you doing?,instagram
+@merchant,@vendor,What payment methods do you accept?,facebook
+@merchant,@bogoman,How can I contact customer support?,email
+@buyer,@bogoman,Do you ship internationally?,instagram
+@ashdev,@merchant,What payment methods do you accept?,facebook
+@customer,@ashdev,Do you have this item in stock?,instagram
+@seller,@buyer,How can I contact customer support?,email
+@helloworld,@ashdev,What payment methods do you accept?,instagram
+@ashdev,@ashdev,How can I contact customer support?,facebook
+@bogoman,@helloworld,Can I track my order?,instagram
+@vendor,@merchant,How can I contact customer support?,facebook
+@meowcat,@seller,Do you have this item in stock?,whatsapp
+@merchant,@ashdev,What is the return policy?,facebook
+@customer,@helloworld,When will my order arrive?,email
+@seller,@shopper,How are you doing?,instagram
+@helloworld,@shopper,Is there a warranty on this product?,facebook
+@seller,@ashdev,Do you have this item in stock?,facebook
+@helloworld,@shopper,Do you have this item in stock?,whatsapp
+@meowcat,@helloworld,Do you ship internationally?,email
+@helloworld,@customer,How can I contact customer support?,email
+@seller,@meowcat,When will my order arrive?,email
+@customer,@meowcat,Is there a warranty on this product?,facebook
+@customer,@buyer,What payment methods do you accept?,instagram
+@helloworld,@bogoman,Do you have this item in stock?,facebook
+@ashdev,@merchant,What payment methods do you accept?,facebook
+@customer,@ashdev,Can I track my order?,whatsapp
+@shopper,@meowcat,Is there a warranty on this product?,whatsapp
+@seller,@customer,Is there a warranty on this product?,email
+@helloworld,@seller,What payment methods do you accept?,instagram
+@shopper,@bogoman,What payment methods do you accept?,whatsapp
+@bogoman,@vendor,Is there a warranty on this product?,whatsapp
+@bogoman,@customer,Is there a warranty on this product?,whatsapp
+@buyer,@meowcat,What is the return policy?,facebook
+@customer,@seller,When will my order arrive?,whatsapp
+@helloworld,@helloworld,What payment methods do you accept?,facebook
+@vendor,@vendor,Do you have this item in stock?,instagram
+@seller,@vendor,How can I contact customer support?,instagram
+@helloworld,@ashdev,Do you have discounts available?,instagram
+@vendor,@merchant,Do you have discounts available?,facebook
+@vendor,@seller,How are you doing?,whatsapp
+@meowcat,@ashdev,What is the return policy?,instagram
+@bogoman,@shopper,When will my order arrive?,email
+@ashdev,@helloworld,What payment methods do you accept?,email
+@helloworld,@meowcat,What payment methods do you accept?,whatsapp
+@vendor,@meowcat,Is there a warranty on this product?,whatsapp
+@shopper,@seller,Do you have discounts available?,facebook
+@merchant,@shopper,How are you doing?,email
+@bogoman,@seller,Do you have discounts available?,email
+@customer,@meowcat,Do you have this item in stock?,whatsapp
+@customer,@buyer,Do you have this item in stock?,whatsapp
+@buyer,@ashdev,Do you have discounts available?,facebook
+@ashdev,@helloworld,How are you doing?,whatsapp
+@customer,@seller,Do you ship internationally?,whatsapp
+@shopper,@buyer,When will my order arrive?,whatsapp
+@helloworld,@bogoman,When will my order arrive?,whatsapp
+@vendor,@bogoman,Do you have discounts available?,instagram
+@meowcat,@buyer,Do you have this item in stock?,instagram
+@customer,@helloworld,What is the return policy?,instagram
+@helloworld,@seller,How are you doing?,email
+@buyer,@meowcat,What payment methods do you accept?,instagram
+@bogoman,@shopper,What payment methods do you accept?,instagram
+@buyer,@helloworld,Do you have discounts available?,facebook
+@shopper,@customer,When will my order arrive?,email
+@customer,@merchant,Do you ship internationally?,email
+@shopper,@merchant,Is there a warranty on this product?,instagram
+@vendor,@helloworld,What payment methods do you accept?,whatsapp
+@ashdev,@customer,What payment methods do you accept?,email
+@customer,@vendor,Is there a warranty on this product?,instagram
+@buyer,@meowcat,What payment methods do you accept?,email
+@helloworld,@ashdev,Can I track my order?,facebook
+@vendor,@merchant,What payment methods do you accept?,whatsapp
+@buyer,@vendor,Do you ship internationally?,whatsapp
+@customer,@bogoman,How can I contact customer support?,facebook
+@meowcat,@bogoman,Can I track my order?,facebook
+@helloworld,@bogoman,How can I contact customer support?,email
+@meowcat,@ashdev,Do you have discounts available?,whatsapp
+@bogoman,@helloworld,How can I contact customer support?,email
+@seller,@merchant,What payment methods do you accept?,whatsapp
+@buyer,@buyer,Can I track my order?,instagram
+@meowcat,@helloworld,How can I contact customer support?,facebook
+@vendor,@helloworld,How are you doing?,facebook
+@customer,@customer,Do you have this item in stock?,instagram
+@bogoman,@meowcat,Do you have this item in stock?,facebook
+@bogoman,@meowcat,What payment methods do you accept?,whatsapp
+@customer,@helloworld,Can I track my order?,instagram
+@shopper,@meowcat,What is the return policy?,whatsapp
+@seller,@vendor,Can I track my order?,whatsapp
+@vendor,@vendor,Do you have this item in stock?,whatsapp
+@meowcat,@shopper,How are you doing?,facebook
+@bogoman,@buyer,When will my order arrive?,whatsapp
+@bogoman,@seller,Can I track my order?,instagram
+@customer,@bogoman,How can I contact customer support?,email
+@buyer,@meowcat,How are you doing?,whatsapp
+@ashdev,@seller,How can I contact customer support?,instagram
+@merchant,@seller,How are you doing?,email
+@seller,@customer,How are you doing?,email
+@shopper,@ashdev,Do you ship internationally?,whatsapp
+@shopper,@vendor,When will my order arrive?,whatsapp
+@merchant,@bogoman,Do you ship internationally?,instagram
+@seller,@merchant,How can I contact customer support?,whatsapp
+@merchant,@shopper,What is the return policy?,email
+@customer,@bogoman,Do you ship internationally?,instagram
+@helloworld,@shopper,Do you have discounts available?,instagram
+@vendor,@meowcat,How are you doing?,facebook
+@helloworld,@customer,What payment methods do you accept?,whatsapp
+@merchant,@customer,Do you ship internationally?,facebook
+@customer,@meowcat,What is the return policy?,facebook
+@merchant,@meowcat,How are you doing?,instagram
+@helloworld,@vendor,Do you have discounts available?,email
+@customer,@merchant,Do you have discounts available?,whatsapp
+@bogoman,@merchant,Is there a warranty on this product?,email
+@merchant,@vendor,What is the return policy?,email
+@bogoman,@meowcat,Do you have this item in stock?,instagram
+@helloworld,@seller,Is there a warranty on this product?,facebook
+@merchant,@customer,What payment methods do you accept?,instagram
+@merchant,@merchant,Is there a warranty on this product?,facebook
+@vendor,@ashdev,What payment methods do you accept?,instagram
+@vendor,@vendor,Can I track my order?,whatsapp
+@buyer,@ashdev,Can I track my order?,facebook
+@bogoman,@customer,Do you have this item in stock?,whatsapp
+@vendor,@vendor,Is there a warranty on this product?,whatsapp
+@merchant,@shopper,How are you doing?,instagram
+@helloworld,@meowcat,What payment methods do you accept?,instagram
+@bogoman,@seller,How can I contact customer support?,instagram
+@merchant,@merchant,Do you ship internationally?,whatsapp
+@bogoman,@helloworld,How can I contact customer support?,email
+@customer,@shopper,How are you doing?,instagram
+@buyer,@merchant,What is the return policy?,whatsapp
+@seller,@merchant,Do you ship internationally?,facebook
+@bogoman,@helloworld,Is there a warranty on this product?,facebook
+@seller,@seller,How are you doing?,facebook
+@bogoman,@seller,Do you have discounts available?,instagram
+@bogoman,@customer,How can I contact customer support?,instagram
+@ashdev,@bogoman,What payment methods do you accept?,whatsapp
+@vendor,@helloworld,How can I contact customer support?,instagram
+@bogoman,@vendor,How can I contact customer support?,facebook
+@merchant,@vendor,Do you have discounts available?,whatsapp
+@bogoman,@meowcat,Do you have discounts available?,instagram
+@vendor,@ashdev,What payment methods do you accept?,whatsapp
+@customer,@seller,Do you ship internationally?,email
+@helloworld,@merchant,How can I contact customer support?,instagram
+@bogoman,@bogoman,Do you have discounts available?,whatsapp
+@ashdev,@buyer,What is the return policy?,email
+@helloworld,@buyer,Do you have this item in stock?,facebook
+@merchant,@seller,How can I contact customer support?,email
+@buyer,@customer,When will my order arrive?,email
+@meowcat,@shopper,Is there a warranty on this product?,email
+@buyer,@merchant,Do you have this item in stock?,email
+@shopper,@helloworld,When will my order arrive?,instagram
+@vendor,@buyer,Do you ship internationally?,whatsapp
+@shopper,@bogoman,Can I track my order?,whatsapp
+@customer,@seller,Is there a warranty on this product?,email
+@seller,@vendor,What is the return policy?,instagram
+@bogoman,@vendor,How can I contact customer support?,facebook
+@customer,@buyer,How can I contact customer support?,instagram
+@meowcat,@buyer,What payment methods do you accept?,instagram
+@buyer,@buyer,How are you doing?,instagram
+@helloworld,@meowcat,How can I contact customer support?,email
+@ashdev,@seller,Do you have this item in stock?,email
+@helloworld,@customer,Do you have discounts available?,instagram
+@customer,@helloworld,How can I contact customer support?,facebook
+@vendor,@customer,Do you ship internationally?,facebook
+@helloworld,@buyer,When will my order arrive?,email
+@customer,@bogoman,Do you ship internationally?,instagram
+@buyer,@ashdev,What payment methods do you accept?,instagram
+@meowcat,@vendor,How are you doing?,whatsapp
+@ashdev,@vendor,Do you have this item in stock?,whatsapp
+@meowcat,@buyer,Do you have this item in stock?,email
+@meowcat,@ashdev,Can I track my order?,whatsapp
+@merchant,@shopper,Do you have discounts available?,facebook
+@seller,@shopper,How are you doing?,whatsapp
+@seller,@helloworld,What is the return policy?,email
+@buyer,@vendor,How are you doing?,email
+@bogoman,@vendor,What is the return policy?,whatsapp
+@shopper,@merchant,Do you ship internationally?,instagram
+@bogoman,@ashdev,Do you have discounts available?,whatsapp
+@helloworld,@seller,Is there a warranty on this product?,facebook
+@buyer,@seller,How are you doing?,instagram
+@merchant,@merchant,Do you ship internationally?,email
+@bogoman,@customer,How are you doing?,whatsapp
+@meowcat,@helloworld,Do you have discounts available?,instagram
+@merchant,@merchant,What payment methods do you accept?,email
+@ashdev,@bogoman,What is the return policy?,instagram
+@buyer,@customer,Can I track my order?,facebook
+@helloworld,@buyer,Do you have discounts available?,instagram
+@buyer,@vendor,Do you ship internationally?,whatsapp
+@bogoman,@ashdev,How can I contact customer support?,whatsapp
+@customer,@ashdev,Do you have discounts available?,facebook
+@bogoman,@vendor,Do you ship internationally?,instagram
+@vendor,@meowcat,Do you have this item in stock?,instagram
+@ashdev,@helloworld,Do you have discounts available?,email
+@shopper,@customer,Do you have discounts available?,email
+@meowcat,@ashdev,What payment methods do you accept?,facebook
+@meowcat,@meowcat,Do you have this item in stock?,instagram
+@merchant,@helloworld,Do you have this item in stock?,email
+@bogoman,@ashdev,How are you doing?,whatsapp
+@meowcat,@ashdev,Do you have discounts available?,email
+@bogoman,@helloworld,What payment methods do you accept?,email
+@bogoman,@ashdev,What is the return policy?,email
+@helloworld,@merchant,What is the return policy?,whatsapp
+@meowcat,@shopper,Can I track my order?,instagram
+@vendor,@merchant,Do you have discounts available?,whatsapp
+@helloworld,@helloworld,When will my order arrive?,facebook
+@helloworld,@meowcat,How are you doing?,whatsapp
+@ashdev,@buyer,Can I track my order?,whatsapp
+@seller,@bogoman,Can I track my order?,whatsapp
+@customer,@customer,Is there a warranty on this product?,instagram
+@ashdev,@buyer,How can I contact customer support?,whatsapp
+@buyer,@shopper,Do you have discounts available?,facebook
+@bogoman,@customer,What payment methods do you accept?,whatsapp
+@customer,@bogoman,What payment methods do you accept?,facebook
+@helloworld,@meowcat,When will my order arrive?,facebook
+@customer,@vendor,Do you have discounts available?,email
+@ashdev,@vendor,Can I track my order?,whatsapp
+@shopper,@merchant,How are you doing?,whatsapp
+@shopper,@bogoman,What payment methods do you accept?,instagram
+@bogoman,@vendor,Do you have discounts available?,whatsapp
+@seller,@shopper,What payment methods do you accept?,whatsapp
+@helloworld,@ashdev,What is the return policy?,email
+@seller,@vendor,What payment methods do you accept?,instagram
+@seller,@shopper,What payment methods do you accept?,instagram
+@bogoman,@vendor,Do you have discounts available?,email
+@meowcat,@bogoman,Do you have discounts available?,whatsapp
+@buyer,@bogoman,When will my order arrive?,instagram
+@buyer,@helloworld,Do you ship internationally?,email
+@customer,@bogoman,Can I track my order?,instagram
+@vendor,@buyer,Do you ship internationally?,whatsapp
+@seller,@customer,What is the return policy?,whatsapp
+@helloworld,@helloworld,What payment methods do you accept?,facebook
+@vendor,@customer,How can I contact customer support?,email
+@vendor,@seller,Can I track my order?,facebook
+@vendor,@meowcat,What payment methods do you accept?,facebook
+@customer,@helloworld,What payment methods do you accept?,email
+@merchant,@helloworld,Do you have discounts available?,instagram
+@bogoman,@customer,When will my order arrive?,facebook
+@customer,@bogoman,Is there a warranty on this product?,email
+@meowcat,@buyer,Do you ship internationally?,facebook
+@buyer,@helloworld,Is there a warranty on this product?,email
+@customer,@customer,What is the return policy?,instagram
+@bogoman,@seller,Do you ship internationally?,whatsapp
+@merchant,@seller,How are you doing?,instagram
+@helloworld,@meowcat,How are you doing?,whatsapp
+@seller,@merchant,How are you doing?,whatsapp
+@vendor,@helloworld,How are you doing?,instagram
+@seller,@shopper,How are you doing?,instagram
+@shopper,@shopper,When will my order arrive?,email
+@buyer,@merchant,Do you ship internationally?,instagram
+@ashdev,@shopper,Do you ship internationally?,facebook
+@helloworld,@shopper,When will my order arrive?,facebook
+@helloworld,@shopper,Do you have this item in stock?,email
+@helloworld,@meowcat,What payment methods do you accept?,email
+@buyer,@seller,Can I track my order?,whatsapp
+@shopper,@merchant,How can I contact customer support?,whatsapp
+@seller,@vendor,What is the return policy?,email
+@shopper,@bogoman,How can I contact customer support?,facebook
+@shopper,@bogoman,Do you have this item in stock?,instagram
+@seller,@seller,How can I contact customer support?,facebook
+@vendor,@vendor,Do you have discounts available?,whatsapp
+@shopper,@bogoman,What payment methods do you accept?,instagram
+@shopper,@vendor,Do you ship internationally?,email
+@buyer,@buyer,Do you ship internationally?,email
+@merchant,@merchant,Do you have this item in stock?,whatsapp
+@shopper,@ashdev,What payment methods do you accept?,whatsapp
+@meowcat,@vendor,Is there a warranty on this product?,email
+@meowcat,@bogoman,Do you have this item in stock?,instagram
+@customer,@buyer,What is the return policy?,email
+@shopper,@meowcat,How can I contact customer support?,whatsapp
+@merchant,@meowcat,Do you ship internationally?,whatsapp
+@shopper,@bogoman,Can I track my order?,email
+@vendor,@meowcat,Is there a warranty on this product?,instagram
+@helloworld,@helloworld,Do you have discounts available?,instagram
+@vendor,@bogoman,When will my order arrive?,whatsapp
+@shopper,@ashdev,Do you have this item in stock?,instagram
+@ashdev,@buyer,Do you ship internationally?,whatsapp
+@meowcat,@customer,Do you have discounts available?,instagram
+@vendor,@helloworld,Can I track my order?,email
+@shopper,@helloworld,Can I track my order?,whatsapp
+@shopper,@ashdev,Is there a warranty on this product?,email
+@customer,@seller,How can I contact customer support?,whatsapp
+@merchant,@bogoman,What is the return policy?,facebook
+@vendor,@shopper,Do you have this item in stock?,whatsapp
+@customer,@customer,What is the return policy?,whatsapp
+@helloworld,@vendor,How are you doing?,instagram
+@bogoman,@buyer,Do you have this item in stock?,email
+@bogoman,@buyer,Can I track my order?,facebook
+@shopper,@meowcat,When will my order arrive?,facebook
+@customer,@shopper,Is there a warranty on this product?,email
+@shopper,@helloworld,What payment methods do you accept?,whatsapp
+@seller,@merchant,How can I contact customer support?,email
+@bogoman,@vendor,Do you have this item in stock?,email
+@helloworld,@meowcat,How are you doing?,instagram
+@customer,@helloworld,Can I track my order?,instagram
+@merchant,@merchant,Is there a warranty on this product?,whatsapp
+@helloworld,@customer,Do you have this item in stock?,facebook
+@seller,@ashdev,When will my order arrive?,whatsapp
+@shopper,@merchant,What is the return policy?,instagram
+@vendor,@meowcat,Is there a warranty on this product?,facebook
+@helloworld,@merchant,Do you ship internationally?,facebook
+@helloworld,@merchant,Can I track my order?,email
+@customer,@helloworld,Do you have discounts available?,instagram
+@merchant,@vendor,How are you doing?,instagram
+@seller,@bogoman,How can I contact customer support?,facebook
+@bogoman,@shopper,Is there a warranty on this product?,facebook
+@meowcat,@shopper,Do you ship internationally?,email
+@buyer,@customer,Is there a warranty on this product?,facebook
+@customer,@seller,How can I contact customer support?,facebook
+@bogoman,@bogoman,What is the return policy?,email
+@meowcat,@helloworld,Is there a warranty on this product?,instagram
+@meowcat,@vendor,Do you have discounts available?,facebook
+@vendor,@ashdev,Do you ship internationally?,email
+@vendor,@buyer,What payment methods do you accept?,email
+@seller,@buyer,Is there a warranty on this product?,email
+@merchant,@buyer,What is the return policy?,instagram
+@merchant,@customer,Is there a warranty on this product?,whatsapp
+@meowcat,@seller,Do you have discounts available?,facebook
+@vendor,@buyer,What is the return policy?,facebook
+@helloworld,@buyer,Do you ship internationally?,email
+@buyer,@buyer,Is there a warranty on this product?,email
+@helloworld,@bogoman,How can I contact customer support?,email
+@meowcat,@helloworld,Do you ship internationally?,facebook
+@seller,@customer,Do you ship internationally?,email
+@ashdev,@seller,When will my order arrive?,email
+@buyer,@merchant,Do you have this item in stock?,whatsapp
+@shopper,@customer,Do you ship internationally?,email
+@buyer,@buyer,How can I contact customer support?,instagram
+@shopper,@helloworld,Do you ship internationally?,instagram
+@meowcat,@seller,When will my order arrive?,email
+@merchant,@bogoman,Do you ship internationally?,email
+@vendor,@vendor,Do you have discounts available?,instagram
+@buyer,@bogoman,How can I contact customer support?,facebook
+@helloworld,@buyer,When will my order arrive?,facebook
+@seller,@helloworld,What is the return policy?,instagram
+@meowcat,@ashdev,Do you have this item in stock?,instagram
+@buyer,@meowcat,Do you have discounts available?,instagram
+@bogoman,@vendor,When will my order arrive?,facebook
+@shopper,@merchant,When will my order arrive?,instagram
+@shopper,@merchant,When will my order arrive?,instagram
+@merchant,@vendor,What is the return policy?,email
+@seller,@vendor,What is the return policy?,whatsapp
+@ashdev,@vendor,How are you doing?,instagram
+@shopper,@meowcat,When will my order arrive?,instagram
+@shopper,@helloworld,How are you doing?,whatsapp
+@buyer,@shopper,What payment methods do you accept?,email
+@buyer,@helloworld,Do you have discounts available?,whatsapp
+@seller,@shopper,How can I contact customer support?,instagram
+@customer,@vendor,How are you doing?,whatsapp
+@buyer,@ashdev,What payment methods do you accept?,whatsapp
+@customer,@buyer,Is there a warranty on this product?,instagram
+@buyer,@ashdev,How can I contact customer support?,instagram
+@seller,@shopper,When will my order arrive?,whatsapp
+@customer,@merchant,Is there a warranty on this product?,facebook
+@bogoman,@merchant,Do you have this item in stock?,email
+@bogoman,@meowcat,When will my order arrive?,facebook
+@bogoman,@vendor,Is there a warranty on this product?,instagram
+@vendor,@ashdev,What payment methods do you accept?,whatsapp
+@customer,@helloworld,What payment methods do you accept?,email
+@merchant,@merchant,Is there a warranty on this product?,facebook
+@buyer,@shopper,What payment methods do you accept?,whatsapp
+@seller,@buyer,When will my order arrive?,email
+@seller,@customer,Do you have this item in stock?,instagram
+@customer,@meowcat,Do you ship internationally?,email
+@customer,@bogoman,What is the return policy?,facebook
+@meowcat,@customer,How are you doing?,whatsapp
+@seller,@bogoman,Do you ship internationally?,instagram
+@helloworld,@merchant,What payment methods do you accept?,facebook
+@merchant,@seller,When will my order arrive?,email
+@seller,@buyer,Do you have this item in stock?,email
+@bogoman,@ashdev,Is there a warranty on this product?,instagram
+@meowcat,@shopper,What payment methods do you accept?,whatsapp
+@buyer,@helloworld,What is the return policy?,whatsapp
+@meowcat,@customer,What payment methods do you accept?,email
+@merchant,@shopper,How can I contact customer support?,instagram
+@ashdev,@seller,Do you have discounts available?,facebook
+@customer,@seller,When will my order arrive?,facebook
+@seller,@ashdev,What payment methods do you accept?,whatsapp
+@meowcat,@helloworld,How are you doing?,instagram
+@buyer,@bogoman,Is there a warranty on this product?,email
+@shopper,@merchant,How can I contact customer support?,instagram
+@vendor,@ashdev,Is there a warranty on this product?,whatsapp
+@helloworld,@customer,Do you have this item in stock?,instagram
+@buyer,@customer,How are you doing?,whatsapp
+@shopper,@merchant,What is the return policy?,email
+@buyer,@vendor,Can I track my order?,email
+@ashdev,@helloworld,Is there a warranty on this product?,whatsapp
+@customer,@ashdev,How are you doing?,instagram
+@ashdev,@bogoman,What is the return policy?,whatsapp
+@bogoman,@merchant,How can I contact customer support?,facebook
+@ashdev,@seller,Can I track my order?,instagram
+@meowcat,@shopper,How are you doing?,facebook
+@merchant,@customer,When will my order arrive?,whatsapp
+@vendor,@meowcat,How are you doing?,email
+@merchant,@customer,Do you have this item in stock?,whatsapp
+@buyer,@seller,Do you have this item in stock?,whatsapp
+@seller,@meowcat,What payment methods do you accept?,facebook
+@merchant,@vendor,Do you ship internationally?,facebook
+@buyer,@bogoman,Can I track my order?,instagram
+@seller,@customer,When will my order arrive?,email
+@seller,@buyer,What payment methods do you accept?,instagram
+@customer,@vendor,How can I contact customer support?,email
+@shopper,@seller,Do you have discounts available?,facebook
+@merchant,@buyer,What payment methods do you accept?,instagram
+@buyer,@customer,How can I contact customer support?,facebook
+@helloworld,@customer,Do you ship internationally?,facebook
+@merchant,@merchant,Can I track my order?,whatsapp
+@helloworld,@buyer,Do you have this item in stock?,whatsapp
+@customer,@meowcat,Do you have discounts available?,whatsapp
+@helloworld,@buyer,Do you ship internationally?,instagram
+@customer,@merchant,Do you ship internationally?,facebook
+@helloworld,@vendor,Do you have this item in stock?,whatsapp
+@buyer,@vendor,Do you have this item in stock?,instagram
+@customer,@meowcat,Can I track my order?,email
+@seller,@merchant,Do you have this item in stock?,whatsapp
+@customer,@meowcat,Do you have discounts available?,facebook
+@ashdev,@vendor,Do you have this item in stock?,facebook
+@helloworld,@vendor,How are you doing?,instagram
+@vendor,@seller,Do you ship internationally?,instagram
+@buyer,@merchant,When will my order arrive?,facebook
+@ashdev,@vendor,How are you doing?,whatsapp
+@shopper,@shopper,Is there a warranty on this product?,whatsapp
+@shopper,@vendor,What is the return policy?,instagram

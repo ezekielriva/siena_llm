@@ -10,11 +10,8 @@ import ProcessDataUseCase from "./use_case";
 import { IntentRepository } from "../../repositories/intent_repository";
 import { MessageRepository } from "../../repositories/message_repository";
 jest.mock("../../repositories/message_repository")
-import { Message } from "../../entities/message";
 import { ConversationRepository } from "../../repositories/conversation_repository";
 jest.mock("../../repositories/conversation_repository")
-import { Conversation } from "../../entities/conversation";
-
 
 describe("ProcessData Use Case", () => {
     

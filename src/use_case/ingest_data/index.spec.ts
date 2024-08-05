@@ -1,34 +1,36 @@
-import { beforeEach, describe, expect, it } from "@jest/globals";
+import { beforeEach, describe, expect, it, jest } from "@jest/globals";
 import request, { Response } from "supertest";
-import app from "../../app";
 import { mockClient } from "aws-sdk-client-mock";
 import { CreateMultipartUploadCommand, S3Client, UploadPartCommand } from "@aws-sdk/client-s3";
+
+import app from "../../app";
 
 describe("IngestDataController", () => {
     const S3ClientMock = mockClient(S3Client);
 
     beforeEach( () => {
         S3ClientMock.reset();
+        jest.resetAllMocks();
     });
     
     it("Uploads a file to S3", async () => {
         S3ClientMock.on(CreateMultipartUploadCommand).resolves({});
         S3ClientMock.on(UploadPartCommand).resolves({});
-        
+
         return request(app)
         .post("/upload")
             .set("Content-Type", "multipart/form-data")
             .set("Accept", "application/json")
-            .attach("csv", `${__dirname}/../../../spec/files/sample.csv`)
+            .attach("csv", `${__dirname}/../../../spec/files/sample_9276ae4b-2dd6-42f2-9fd6-dd77c64a8808.csv`)
             .expect("Content-Type", "application/json; charset=utf-8")
             .expect(201)
-            .then((res:Response) => {                
+            .then((res:Response) => {      
                 const { status, file } = res.body;
                 const r:RegExp = new RegExp(`https:\/\/${process.env.S3_BUCKET_NAME}.s3.${process.env.AWS_REGION}.amazonaws.com\/(.+).csv`);
             
                 expect(status).toBe("uploaded");
                 expect(file).toMatch(r)
-            });
+            }).catch( (err) => {throw err} );
     });
 
     describe("When csv is not provided", () => {
@@ -41,7 +43,7 @@ describe("IngestDataController", () => {
                 .expect(422)
                 .then((res:Response) => {
                     expect(res.body.status).toBe("error");
-                    expect(res.body.error).toBe("missing file");
+                    expect(res.body.errors[0]).toBe("file: missing");
                 })
         })
 
@@ -54,8 +56,11 @@ describe("IngestDataController", () => {
                 .expect("Content-Type", "application/json; charset=utf-8")
                 .expect(422)
                 .then((res:Response) => {
-                    expect(res.body.status).toBe("error");
-                    expect(res.body.error).toBe("ValidationError: \"sender_username\" is not allowed to be empty. \"reciever_username\" is not allowed to be empty. \"message\" is not allowed to be empty. \"channel\" must be one of [instagram, facebook, whatsapp, email]");
+                    var { status, errors } = res.body
+                    
+                    expect(status).toBe("error");
+                    expect(errors).toContain("row 0: ValidationError: \"sender_username\" is not allowed to be empty. \"reciever_username\" is not allowed to be empty. \"message\" is not allowed to be empty. \"channel\" must be one of [instagram, facebook, whatsapp, email]")
+                    expect(errors).toContain("csv file must have at least 1000 rows, current lenght 1 rows")
                 })
         })
     })

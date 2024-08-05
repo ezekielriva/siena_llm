@@ -1,31 +1,25 @@
-// Use Case: Ingest Data:
-// 1. Receive a csv file:
-// 2. Enforce these constraints:
-// - Validate the format of the CSV
-// - There should be 1000 records in the csv
-// - Channels can be: instagram, facebook, whatsapp, email.
-// 3. Upload file to S3 Bucket
-// 4. Return S3 file location
-
 import CSVValidator from "../../validator/csv_validator"
 import { Readable } from "stream"
 import S3Uploader from "../../uploader/s3_uploader"
 import { CompleteMultipartUploadCommandOutput } from "@aws-sdk/client-s3"
 
+type IngestDataUseCaseProperties = {
+    validator:CSVValidator,
+    uploader:S3Uploader
+}
+
 export default class IngestDataUseCase {
-    private stream:Readable
     private validator:CSVValidator
     private uploader:S3Uploader
     
-    constructor(stream:Readable) {
-        this.stream = stream
-        this.validator = new CSVValidator();
-        this.uploader = new S3Uploader();
+    constructor(props:IngestDataUseCaseProperties) {
+        this.validator = props.validator;
+        this.uploader = props.uploader;
     }
 
-    public async execute():Promise<string> {
-        return this.validator.execute(this.stream)
-            .then( (stream:Readable) => this.uploader.upload(stream))
+    public async execute(stream:Readable):Promise<string> {
+        return this.validator.execute(stream)
+            .then( (stream:Readable) => { return this.uploader.upload(stream)} )
             .then( (output:CompleteMultipartUploadCommandOutput) => output.Location! )
     }
 }
