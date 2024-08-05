@@ -53,7 +53,7 @@ export default class ProcessDataUseCase {
         this.conversationRepository = props.conversationRepository;
     }
 
-    public async execute(stream:Readable) {
+    public async execute(stream:Readable):Promise<void> {
         const messages:Message[] = await csvtojson().fromStream(stream);
 
         var classifications:TClassification[] = await this.classifyIntents(messages);
