@@ -24,7 +24,7 @@ app.get("/", (req:Request, res:Response) => {
 });
 
 app.get("/conversations", ListConversationsController);
-app.get("/conversations/:id/messages", ShowMessagesController)
+app.get("/conversations/:id/messages", ShowMessagesController);
 
 app.post("/upload", 
     upload.single("csv"), 

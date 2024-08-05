@@ -22,11 +22,12 @@ High level requirement:
 1. Install Node v22.5.1, NPM 10.8.2
 1. Install packages using `npm install`
 1. Setup the database by running `npm run db:init`
+1. Setup the database by running `npm run db:populate`
 
 ## Execution
 
 1. Create your `.env` file using `.env.sample` as reference.
-1. Run `npm start`
+1. Run `npm run start:dev:local`
 
 ## Testing
 

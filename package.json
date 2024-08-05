@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start:dev:local": "DOTENV_CONFIG_PATH=.env.development.local node dist/index.js",
+    "start:dev:local": "DOTENV_CONFIG_PATH=.env.development.local npx ts-node src/index.ts",
     "test": "DOTENV_CONFIG_PATH=.env.test.local jest --runInBand",
     "test:watch": "DOTENV_CONFIG_PATH=.env.test.local jest --watchAll",
-    "db:init": "DOTENV_CONFIG_PATH=.env.development.local npx -r dotenv/config ts-node db/setup.ts"
+    "db:init": "DOTENV_CONFIG_PATH=.env.development.local npx -r dotenv/config ts-node db/setup.ts",
+    "db:populate": "npx ts-node cmd/db_factory.ts",
+    "csv:generator": "npx ts-node cmd/csv_generator.ts"
   },
   "repository": {
     "type": "git",
