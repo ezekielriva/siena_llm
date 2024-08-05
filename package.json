@@ -6,8 +6,9 @@
   "scripts": {
     "build": "tsc",
     "start:dev:local": "DOTENV_CONFIG_PATH=.env.development.local node dist/index.js",
-    "test": "DOTENV_CONFIG_PATH=.env.test.local jest",
-    "test:watch": "DOTENV_CONFIG_PATH=.env.test.local jest --watchAll"
+    "test": "DOTENV_CONFIG_PATH=.env.test.local jest --runInBand",
+    "test:watch": "DOTENV_CONFIG_PATH=.env.test.local jest --watchAll",
+    "db:init": "DOTENV_CONFIG_PATH=.env.development.local npx -r dotenv/config ts-node db/setup.ts"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "@types/supertest": "^6.0.2",
     "aws-sdk-client-mock": "^4.0.1",
     "express": "^4.19.2",
+    "jest-mock-axios": "^4.7.3",
     "supertest": "^7.0.0",
     "ts-jest": "^29.2.4",
     "ts-node": "^10.9.2",
@@ -42,10 +44,13 @@
     "@types/csvtojson": "^1.1.5",
     "@types/joi": "^17.2.2",
     "@types/morgan": "^1.9.9",
+    "axios": "^1.7.3",
     "csvtojson": "^2.0.10",
     "dotenv": "^16.4.5",
     "joi": "^17.13.3",
     "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
   }
 }

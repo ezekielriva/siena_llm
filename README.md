@@ -21,6 +21,7 @@ High level requirement:
 ### Instructions
 1. Install Node v22.5.1, NPM 10.8.2
 1. Install packages using `npm install`
+1. Setup the database by running `npm run db:init`
 
 ## Execution
 
