@@ -23,19 +23,6 @@ const INTENT_EXAMPLES:string[][] = [
     ["I want to return a product", "Inquiry about return policy"]
 ];
 
-const INTENTS:string[] = [
-    "Request for international shipping information",
-    "Request for veteran discount",
-    "Inquiry about return policy",
-    "Inquiry about order status",
-    "Request for product details",
-    "Inquiry about payment methods",
-    "Inquiry about shipping times",
-    "Inquiry about product availability",
-    "Request for cancellation of order",
-    "Inquiry about account details"
-];
-
 
 type ProcessDataUseCaseProps = {
     intentRepository:IntentRepository,
